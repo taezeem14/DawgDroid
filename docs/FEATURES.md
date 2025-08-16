@@ -1,0 +1,27 @@
+# Features (expanded)
+
+- Performance Profiles
+  - battery, balanced, performance, extreme
+  - per-app overrides
+- CPU/GPU Controls
+  - governor switching hooks
+  - frequency scaling config templates
+  - overclocking script (sysfs echo placeholders)
+- RAM Management
+  - zRAM enable/disable script and tuning configs
+  - LMK & oom_adj tuning presets
+  - swapfile hooks (optional)
+- Thermal & Battery Safety
+  - thermal throttling stubs
+  - battery-aware profile limiting
+- DawgCenter Integration
+  - UI pages for Profiles, CPU, RAM, Thermal, Root, Updater
+- Root & Modules
+  - magisk integration hooks
+  - modules loader helper (systemless modules)
+- OTA & Recovery
+  - OTA server stub + payload verifier
+  - TWRP addon manifest
+- Privacy & Network
+  - per-app sensor kill switches
+  - iptables firewall script stubs
